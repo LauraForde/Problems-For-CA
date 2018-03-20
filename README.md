@@ -15,4 +15,8 @@ We will be given ten problems to sovle throughout the semester. We are expected 
 
 1. Write, from scratch, a function in Racket that uses a brute-force algorithm that takes a single positive interger and return true if the number is a prime and false otherwise. Call the function *decide-prime*.  
 
-2. Write, from scratch, a function in Racket that takes a positive integer n0 as input and returns a list by recursively applying the following operation, starting with the input number.
+2. Write, from scratch, a function in Racket that takes a positive integer as input and returns a list by recursively applying the following operation, starting with the input number. The recursion should end when the number becomes 1. Call the function *collatz-list*, which should return a list whose first element is n0, the second is n1 etc.
+* If the number is odd, multiply by three and add one
+* If the number is even, divide the number two 
+
+3. Write, from scratch, two functions in Racket. The first is called **lcycle**. It takes a list as input and returns the list cyclically shifted one place to the left. The second is called **rcycle**, and it shifts the list cyclically shifted one place to the right.
