@@ -17,4 +17,6 @@
 )
 
 (collatz-list 5)
+(collatz-list 9)
 (collatz-list 2)
+(collatz-list 8)
