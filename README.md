@@ -19,4 +19,16 @@ We will be given ten problems to sovle throughout the semester. We are expected 
 * If the number is odd, multiply by three and add one
 * If the number is even, divide the number two 
 
-3. Write, from scratch, two functions in Racket. The first is called **lcycle**. It takes a list as input and returns the list cyclically shifted one place to the left. The second is called **rcycle**, and it shifts the list cyclically shifted one place to the right.
+3. Write, from scratch, two functions in Racket. The first is called **lcycle**. It takes a list as input and returns the list cyclically shifted one place to the left. The second is called **rcycle**, and it shifts the list cyclically shifted one place to the right.  
+
+4. Write a function *sublsum* in Racket that takes a list (of integers) as input and returns a list og sublists if ut that sum to zero. For this problem, you can use the **combinations** built-in function. Note, the order of the sublists and their elements doesn't matter.  
+
+5. Write a function *hamming-weight* in Racket that takes a list *l* as input and returns the number of non-zero elements in it.  
+
+6. Write a function *hamming-distance* in Racket that takes two lists and returns the number of positions in which differ.  
+
+7. Write a function *maj* in Rackeet that takes three lists *x*, *y* and *z* of equal length and containing only 0's and 1's. It should return a list containing a 1 where two or more of *x*, *y* and *z* contains 1's, 0's and otherwise.  
+
+8. Write a function *chse* in Racket that takes three lists *x*, *y* and *z* of equal length and containing only 0's and 1's. It should return a list containing the elements of *y* in the positions where *x* is 1 and the elements of *z* otherwise.  
+
+9. Write a function *sod2* in Racket that takes three lists *x*, *y* and *z* of equal lenght and containing only 0's and 1's. It should return a list containing a 1 where the number of 1's in a given position in *x*, *y* and *z* contains an odd number of 1's and 0 otherwise.
