@@ -13,4 +13,6 @@ To install Racket you simply go to the [download](http://racket-lang.org/downloa
 ## The Problems  
 We will be given ten problems to sovle throughout the semester. We are expected to sovle "from scratch" meaning our lecturer wants us to use only **cons, car, cdr, define, lambda, if, null, null?, cond, map, = and the basic numerical operators**.  
 
-1. Write, from scratch, a function in Racket that uses a brute-force algorithm that takes a single positive interger and return true if the number is a prime and false otherwise. Call the function *decide-prime*.
+1. Write, from scratch, a function in Racket that uses a brute-force algorithm that takes a single positive interger and return true if the number is a prime and false otherwise. Call the function *decide-prime*.  
+
+2. Write, from scratch, a function in Racket that takes a positive integer n0 as input and returns a list by recursively applying the following operation, starting with the input number.
