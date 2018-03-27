@@ -15,9 +15,9 @@ We will be given ten problems to sovle throughout the semester. We are expected 
 
 1. Write, from scratch, a function in Racket that uses a brute-force algorithm that takes a single positive interger and return true if the number is a prime and false otherwise. Call the function *decide-prime*.  
 
-2. Write, from scratch, a function in Racket that takes a positive integer as input and returns a list by recursively applying the following operation, starting with the input number. The recursion should end when the number becomes 1. Call the function *collatz-list*, which should return a list whose first element is n0, the second is n1 etc.
-* If the number is odd, multiply by three and add one
-* If the number is even, divide the number two 
+2. Write, from scratch, a function in Racket that takes a positive integer as input and returns a list by recursively applying the following operation, starting with the input number. 
+![exercisetwo](https://user-images.githubusercontent.com/15687193/37971451-ded7f33a-31cd-11e8-9b90-4721de7c9745.png "Exercise Two Operation")  
+The recursion should end when the number becomes 1. Call the function *collatz-list*, which should return a list whose first element is n0, the second is n1 etc. 
 
 3. Write, from scratch, two functions in Racket. The first is called **lcycle**. It takes a list as input and returns the list cyclically shifted one place to the left. The second is called **rcycle**, and it shifts the list cyclically shifted one place to the right.  
 
@@ -31,4 +31,8 @@ We will be given ten problems to sovle throughout the semester. We are expected 
 
 8. Write a function *chse* in Racket that takes three lists *x*, *y* and *z* of equal length and containing only 0's and 1's. It should return a list containing the elements of *y* in the positions where *x* is 1 and the elements of *z* otherwise.  
 
-9. Write a function *sod2* in Racket that takes three lists *x*, *y* and *z* of equal lenght and containing only 0's and 1's. It should return a list containing a 1 where the number of 1's in a given position in *x*, *y* and *z* contains an odd number of 1's and 0 otherwise.
+9. Write a function *sod2* in Racket that takes three lists *x*, *y* and *z* of equal lenght and containing only 0's and 1's. It should return a list containing a 1 where the number of 1's in a given position in *x*, *y* and *z* contains an odd number of 1's and 0 otherwise.  
+
+10. Write a function *lstq* in Racket that takes as arguments two lists *l* and *m* of equal length and containing numbers. It should return *d*, the distance given by the sum of the square residuals between the numbers in the lists:  
+![exerciseten](https://user-images.githubusercontent.com/15687193/37971452-df6c7050-31cd-11e8-912c-14e22b8978d4.png "Exercise Ten")  
+This means take the *ith* element of *m* from the *ith* element of *l* and square the result of all *i*. Then add all of those to get *d*.
