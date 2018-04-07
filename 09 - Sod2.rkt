@@ -1,12 +1,16 @@
 #lang racket
 
 (define (sod2 x y z)
-    
+    ; Checking to see if x is null or not
     (if (null? x)
         '()
         (cond
-            (0(= 0(modulo (car x) (car y) (car z) 2)) (cons 0) (sod2 (cdr x) (cdr y) (cdr z)))
-            (else (cons 1) (sod2 (cdr x) (cdr y) (cdr z)))
+            ; If the modulo is 0
+            ((= (modulo (+(car x) (car y) (car z)) 2) 0)
+            ; Cons 0 to the list, call the method and pass back the remainder of the lists (cdr)
+            (cons 0 (sod2 (cdr x) (cdr y) (cdr z))))
+            ; Otherwise cons 1 to the list, call the method and pass back the remainder of the list (cdr)
+            (else (cons 1 (sod2 (cdr x) (cdr y) (cdr z))))
         )
     )   
     
